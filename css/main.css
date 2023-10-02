@@ -1,0 +1,997 @@
+html {scroll-behavior: smooth;}
+
+/* PORTADA */
+
+.portada {
+    background-image: url(../img/foto-ana.jpg);
+    background-size: cover;
+    background-color: #fff;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.imagen-portada {
+    height: 50%;
+    width: 50%;
+    margin-left: 900px;
+    margin-top: 900px;
+}
+
+.titulo-portada {
+    color: #000;
+    font-family: SF Pro Display, 'Onest', sans-serif;
+    font-size: 9em;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: -0.5em;
+}
+
+.subtitulo {
+    color: #C9C9C9;
+    font-family: SF Pro Display, 'Onest', sans-serif;
+    font-size: 9em;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 2rem;
+}
+
+
+section {
+    padding: 10% 10%; 
+    text-align: left;
+
+}
+
+.btn-download {
+    margin-top: 44px;
+}  
+
+
+/* FLECHA */
+
+.hero__scroll-btn {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    z-index: 1;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    font-family: SF Pro Display, 'Onest', sans-serif;
+}
+
+.hero__scroll-btn:hover {
+    color: var(--bs-light);
+    opacity: 0.8;
+}  
+
+.hero__scroll-btn .bi {
+    transition-delay: 0.8s;
+    animation: bounce 1s infinite alternate;
+}
+
+/* DESCRIPCION */
+
+.descripcion {
+    background-color: rgb(224, 224, 224);
+}
+
+.texto-titulo{
+    color: #000;
+    font-family: SF Pro Display, 'Onest', sans-serif;
+    font-size: 7em;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}  
+
+.texto-descripcion {
+    color: #000;
+    font-family: SF Pro Display, 'Onest', sans-serif;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 50px;
+}
+
+/* EXPERIENCE */
+
+.titulo-experience {
+    color: #000;
+    font-family: SF Pro Display, 'Onest', sans-serif;
+    font-size: 8em;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: -0.5em;
+    margin-bottom: 0.3em;
+}
+
+.experience {
+    margin-top: 0em;
+    margin-bottom: 2em;
+    flex-direction: row;
+}
+
+ #boton1 {
+    margin-top: 3em;
+    margin-bottom: 2em;
+ }
+
+.btn {
+    margin-top: 0em;
+    margin-bottom: 2em;
+}
+
+.titulo-subtitulo {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    font-family: SF Pro Display, 'Onest', sans-serif;
+    
+}
+
+.titulo-subtitulo h2 {
+    margin-right: 10px; /* Agrega espacio a la derecha de h2 */
+}
+
+
+.puesto {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: SF Pro Display, 'Onest', sans-serif;
+}
+
+.empresa {
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #C9C9C9;
+    font-family: SF Pro Display, 'Onest', sans-serif;
+}
+
+.listado {
+    font-size: 1.5em;
+    font-family: SF Pro Display, 'Onest', sans-serif;
+}
+
+.listado li {
+    margin-bottom: 10px;
+}
+
+.informacion {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    color: #000;
+    font-family: SF Pro Display, 'Onest', sans-serif;
+}
+
+.informacion.visible {
+    display: block;
+}
+
+
+#info1, #info2, #info3 {
+    margin-left: 19em;
+    margin-top: -21em;
+    border: none;
+}
+
+#boton1, #boton2, #boton3 {
+    padding: 1% 5%;
+}
+
+/* SKILLS */
+
+.skills {
+    background-color: rgb(224, 224, 224);
+}
+
+.titulo-skills {
+    color: #000;
+    font-family: SF Pro Display, 'Onest', sans-serify;
+    font-size: 8em;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin-top: -0.5em;
+    margin-bottom: 0.5em;
+}
+
+.titulo-columna {
+    font-size: 1.3em;
+    font-weight: 600;
+    text-align: center;
+    font-family: SF Pro Display, 'Onest', sans-serif;
+}
+
+.skills-listado {
+    font-size: 1em;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 10%;
+    flex-direction: row;
+    list-style: none;
+    font-family: SF Pro Display, 'Onest', sans-serif;
+}
+
+ul.skills-listado {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.skills-listado li {
+    padding: 2%;
+}
+
+p {
+    color: #000;
+    font-size: bold;
+    font-family: SF Pro Display, 'Onest', sans-serif;
+}
+
+/* PROJECTS  */
+
+.tarjetas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 60px 10px;
+    flex-wrap: wrap; /* Permite que las cards se envuelvan a la siguiente línea si no caben en el ancho de la pantalla */
+    justify-content: space-between; /* Distribuye las cards uniformemente en el espacio disponible */
+}
+
+.titulo-projects {
+    color: #000;
+    font-family: SF Pro Display, 'Onest', sans-serif;
+    font-size: 8em;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin-top: -0.8em;
+    margin-bottom: 0.9em;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 32px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #212121;
+    border: 2px solid #313131;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+
+.calculator {
+    background-image: url(../img/calculator.jpg);
+    background-size: cover;
+    margin-bottom: 4%;
+    overflow: hidden;
+}
+
+
+.calculator::before {
+    content: ""; /* Añade un pseudo-elemento */
+    position: absolute; /* Establece posición absoluta para el pseudo-elemento */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(255, 255, 255), rgba(255, 209, 2, 0)); /* Aplica el degradado blanco */
+    z-index: 1; /* Coloca el pseudo-elemento por debajo del contenido de texto */
+}
+
+.loginform{
+    background-image: url(../img/loginform.jpg);
+    background-size: cover;
+    margin-bottom: 4%;
+}
+
+.loginform::before {
+    content: ""; /* Añade un pseudo-elemento */
+    position: absolute; /* Establece posición absoluta para el pseudo-elemento */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.699)); /* Aplica el degradado blanco */
+    z-index: 1; /* Coloca el pseudo-elemento por debajo del contenido de texto */
+}
+
+.weatherapp {
+    background-image: url(../img/weatherapp.jpg);
+    background-size: cover;
+    margin-bottom: 4%;
+
+}
+
+.weatherapp::before {
+    content: ""; /* Añade un pseudo-elemento */
+    position: absolute; /* Establece posición absoluta para el pseudo-elemento */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.699)); /* Aplica el degradado blanco */
+    z-index: 1; /* Coloca el pseudo-elemento por debajo del contenido de texto */
+}
+
+.todolist {
+    background-image: url(../img/todolist.jpg);
+    background-size: cover;
+    margin-bottom: 4%;
+
+}
+
+.todolist::before {
+    content: ""; /* Añade un pseudo-elemento */
+    position: absolute; /* Establece posición absoluta para el pseudo-elemento */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.699)); /* Aplica el degradado blanco */
+    z-index: 1; /* Coloca el pseudo-elemento por debajo del contenido de texto */
+}
+
+.recipeapp{
+    background-image: url(../img/recipe-app.jpg);
+    background-size:cover;
+    margin-bottom: 4%;
+
+}
+
+.recipeapp::before {
+    content: ""; /* Añade un pseudo-elemento */
+    position: absolute; /* Establece posición absoluta para el pseudo-elemento */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.699)); /* Aplica el degradado blanco */
+    z-index: 1; /* Coloca el pseudo-elemento por debajo del contenido de texto */
+}
+
+.landingpage {
+    background-image: url(../img/landing.jpg);
+    background-size:cover;
+    margin-bottom: 4%;
+}
+
+.landingpage::before {
+    content: ""; /* Añade un pseudo-elemento */
+    position: absolute; /* Establece posición absoluta para el pseudo-elemento */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.821)); /* Aplica el degradado blanco */
+    z-index: 1; /* Coloca el pseudo-elemento por debajo del contenido de texto */
+}
+
+.simongame {
+    background-image: url(../img/simon-game.jpg);
+    background-size:cover;
+    margin-bottom: 4%;
+}
+
+.simongame::before {
+    content: ""; /* Añade un pseudo-elemento */
+    position: absolute; /* Establece posición absoluta para el pseudo-elemento */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.851)); /* Aplica el degradado blanco */
+    z-index: 1; /* Coloca el pseudo-elemento por debajo del contenido de texto */
+}
+
+.medium-blogs {
+    background-image: url(../img/Mili\ y\ Ana.jpg);
+    background-size:cover;
+    margin-bottom: 4%;
+}
+
+.medium-blogs::before {
+    content: ""; /* Añade un pseudo-elemento */
+    position: absolute; /* Establece posición absoluta para el pseudo-elemento */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.881), rgba(255, 255, 255, 0.879)); /* Aplica el degradado blanco */
+    z-index: 1; /* Coloca el pseudo-elemento por debajo del contenido de texto */
+}
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    color: #e8e8e8;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+    z-index: 2;
+    font-family: SF Pro Display, 'Onest', sans-serif;
+  }
+  
+  .content .heading {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: SF Pro Display, 'Onest', sans-serif;
+  }
+  
+  .content .para {
+    line-height: 1.5;
+    font-family: SF Pro Display, 'Onest', sans-serif;
+  }
+  
+  .content .btn {
+    color: #e8e8e8;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    background: #ffc107;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(255, 196, 1, 0.2);
+    font-family: SF Pro Display, 'Onest', sans-serif;
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 20px rgb(255, 187, 0);
+    border-color: rgb(255, 187, 0);
+  }
+  
+.content .btn:hover {
+    outline: 2px solid #e8e8e8;
+    background: transparent;
+    color: #e8e8e8;
+    font-family: SF Pro Display, 'Onest', sans-serif;
+  }
+  
+.content .btn:active {
+    box-shadow: none;
+  }
+  
+.iconos-socialmedia {
+    display: flex;
+  }
+
+.iconos-socialmedia svg {
+    margin-right: 15px;
+}
+
+.bi-github, .bi-behance, .bi-medium, .bi-linkedin, .bi-instagram {
+    color: #000;
+}
+
+.bi-github:hover, .bi-behance:hover, .bi-medium:hover, .bi-linkedin:hover, .bi-instagram:hover {
+    color: #fff;
+}
+
+.view-live {
+    color: #000;
+    text-decoration: none;
+}
+
+/* CONTACT */
+
+.contact {
+    margin-top: 3%;
+    padding-top: 5%;
+    padding-bottom: 4%;
+    background-color: rgb(224, 224, 224);
+}
+
+
+.contactme {
+    color: #000;
+    font-family: SF Pro Display, 'Onest', sans-serif;
+    font-size: 7em;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+.correo {
+    font-size: 2em;
+    font-family: SF Pro Display, 'Onest', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    color: #000;
+    padding: 3%;
+}
+
+.contact-socialmedia {
+    text-align: center;
+}
+
+.contact-socialmedia svg {
+    margin-right: 10px; /* Ajusta el valor según el espacio deseado */
+}
+
+.footer {
+    font-family: SF Pro Display, 'Onest', sans-serif;
+    font-size: 1.1em;
+    color: #000;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 0em;
+}
+
+
+/* Para pantallas medianas (ipad) */
+@media (max-width: 1024px) {
+    .portada {
+        background-image: url(../img/foto-ana-mobile.jpg);
+        background-color: #fff;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .imagen-portada {
+        height: 50%;
+        width: 50%;
+        margin-left: 900px;
+        margin-top: 900px;
+    }
+    
+    .titulo-portada {
+        color: #000;
+        font-family: SF Pro Display, 'Onest', sans-serif;
+        font-size: 7em;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: 1em;
+    }
+    
+    .subtitulo {
+        color: #C9C9C9;
+        font-family: SF Pro Display, 'Onest', sans-serif;
+        font-size: 7em;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-bottom: 2rem;
+    }
+
+    /* DESCRIPCION */
+
+    .texto-titulo{
+        color: #000;
+        font-family: SF Pro Display, 'Onest', sans-serify;
+        font-size: 5em;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }  
+    
+    .texto-descripcion {
+        color: #000;
+        font-family: SF Pro Display, 'Onest', sans-serif;
+        font-size: 1em;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-right: 50px;
+    }
+
+    /* EXPERIENCE */
+
+    .titulo-experience {
+        color: #000;
+        font-family: SF Pro Display, 'Onest', sans-serif;
+        font-size: 5em;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: -0.5em;
+        margin-bottom: 0.3em;
+    }   
+
+    .experience {
+        margin-top: 0em;
+        margin-bottom: 2em;
+        font-family: SF Pro Display, 'Onest', sans-serif;
+    }
+
+    .btn {
+        margin-top: 1em;
+        font-family: SF Pro Display, 'Onest', sans-serif;
+    }
+
+    .puesto {
+        font-size: 1.3em;
+        font-weight: bold;
+        font-family: SF Pro Display, 'Onest', sans-serif;
+    }
+
+    .empresa {
+        font-size: 1.1em;
+        font-weight: 400;
+        color: #C9C9C9;
+        font-family: SF Pro Display, 'Onest', sans-serif;
+    }
+
+    .listado {
+        font-size: 1.1em;
+        font-family: SF Pro Display, 'Onest', sans-serif;
+    }
+
+
+    #info1, #info2, #info3 {
+        margin-left: 15em;
+        margin-top: -21em;
+        border: none;
+        font-family: SF Pro Display, 'Onest', sans-serif;
+    }
+
+    /* SKILLS */
+
+    .skills {
+        background-color: rgb(224, 224, 224);
+    }
+
+    .titulo-skills {
+        color: #000;
+        font-family: SF Pro Display, 'Onest', sans-serif;
+        font-size: 5em;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: center;
+        margin-top: -0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    .titulo-columna {
+        font-size: 1em;
+        font-weight: 600;
+        text-align: center;
+        font-family: SF Pro Display, 'Onest', sans-serif;
+    }
+
+    /* PROJECTS  */
+
+    .tarjetas {
+        display: flex;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 20px 40px;
+        flex-wrap: wrap; /* Permite que las cards se envuelvan a la siguiente línea si no caben en el ancho de la pantalla */
+        justify-content: center;
+    }
+
+    .titulo-projects {
+        color: #000;
+        font-family: SF Pro Display, 'Onest', sans-serif;
+        font-size: 5em;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: center;
+        margin-top: -0.8em;
+        margin-bottom: 0.9em;
+    }
+
+    /* CONTACT */
+
+    .contact {
+        margin-top: 3%;
+        padding-top: 5%;
+        padding-bottom: 4%;
+        background-color: rgb(224, 224, 224);
+    }
+
+    .contactme {
+        color: #000;
+        font-family: SF Pro Display, 'Onest', sans-serif;
+        font-size: 5em;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .correo {
+        font-size: 1.5em;
+        font-family: SF Pro Display, 'Onest', sans-serif;
+        font-weight: 200;
+        text-align: center;
+        color: #000;
+        padding: 3%;
+    }
+
+    .contact-socialmedia {
+        text-align: center;
+    }
+
+    .contact-socialmedia svg {
+        margin-right: 10px; /* Ajusta el valor según el espacio deseado */
+    }
+
+    .footer {
+        font-family: SF Pro Display, 'Onest', sans-serif;
+        font-size: 1.1em;
+        color: #000;
+        font-weight: 200;
+        text-align: center;
+        padding-top: 2em;
+        padding-bottom: 0em;
+    }
+    
+  }
+  
+/* Para pantallas más pequeñas (móviles) */
+@media screen and (max-width: 768px) {
+
+
+    .portada {
+        background-image: url(../img/foto-ana-mobile.jpg);
+        background-color: #fff;
+        background-position: 45% center;
+        background-attachment: fixed;
+        height: 100vh;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .imagen-portada {
+        height: 10%;
+        width: 10%;
+    }
+    
+    .titulo-portada {
+        color: #000;
+        font-family: SF Pro Display, 'Onest', sans-serif;
+        font-size: 2em;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-bottom: 0.4em;
+        text-align: center;
+        margin-top: 0em;
+    }
+
+    .line-break {
+        display: none;
+    }
+    
+    .subtitulo {
+        color: #C9C9C9;
+        font-family: SF Pro Display, 'Onest', sans-serif;
+        font-size: 2em;
+        font-style: normal;
+        font-weight: 100;
+        line-height: normal;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .portada{
+        justify-content: center;
+        text-align: center;
+    }
+    
+    /* FLECHA */
+    
+    .hero__scroll-btn {
+        font-family: SF Pro Display, 'Onest', sans-serif;
+        position: absolute;
+        left: 50%;
+        bottom: 30px;
+        transform: translateX(-50%);
+        z-index: 1;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+    }
+
+
+    .texto-titulo{
+        color: #000;
+        font-family: SF Pro Display, 'Onest', sans-serif;
+        font-size: 3.2em;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        height: 75vh;
+        margin-top: 1rem;
+    }  
+    
+    .texto-descripcion {
+        color: #000;
+        font-family: SF Pro Display, 'Onest', sans-serif;
+        font-size: 1.3em;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin: 180px 10px 0px -163px;
+    }
+
+    /* EXPERIENCE */
+
+    .titulo-experience {
+        color: #000;
+        font-family: SF Pro Display, 'Onest', sans-serif;
+        font-size: 3.2em;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: 0.5em;
+        margin-bottom: 0.3em;
+    }   
+
+    .experience {
+        margin-top: 0em;
+        margin-bottom: 2em;
+    }
+
+    .btn {
+        margin-top: 0em;
+        display: flex;
+    }
+
+    .botones {
+        display: grid; /* Establece un contenedor de cuadrícula */
+        grid-template-columns: repeat(auto-fit, minmax(90px, 1fr)); /* Crea columnas automáticas */
+        gap: 10px; /* Agrega un espacio entre los elementos (ajusta según tus preferencias) */
+        justify-content: center;
+        align-items: end; 
+        padding-bottom: 15px;
+    }
+    .puesto {
+        font-size: 1.1em;
+        font-weight: 600;
+        font-family: SF Pro Display, 'Onest', sans-serif;
+    }
+
+    .empresa {
+        font-size: 1em;
+        font-weight: 300;
+        color: #C9C9C9;
+        font-family: SF Pro Display, 'Onest', sans-serif;
+    }
+
+    .listado {
+        font-size: 1.1em;
+        font-family: SF Pro Display, 'Onest', sans-serif;
+    }
+
+
+    #info1, #info2, #info3 {
+        margin-left: -1em;
+        margin-top: 0em;
+        border: none;
+    }
+
+
+    /* SKILLS */
+
+    .skills {
+        background-color: rgb(224, 224, 224);
+    }
+
+    .titulo-skills {
+        color: #000;
+        font-family: SF Pro Display, 'Onest', sans-serif;
+        font-size: 3.2em;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: center;
+        margin-top: 0.3em;
+        margin-bottom: 0.8em;
+    }
+
+    .titulo-columna {
+        font-size: 1em;
+        font-weight: 600;
+        text-align: center;
+        font-family: SF Pro Display, 'Onest', sans-serif;
+    }
+
+    .row-skills{
+        display: flex;
+        grid-gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    /* PROJECTS  */
+
+    .tarjetas {
+        display: flex;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 20px 40px;
+        flex-wrap: wrap; /* Permite que las cards se envuelvan a la siguiente línea si no caben en el ancho de la pantalla */
+        justify-content: center;
+    }
+    
+    .titulo-projects {
+        color: #000;
+        font-family: SF Pro Display, 'Onest', sans-serif;
+        font-size: 3.2em;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: center;
+        margin-top: 0.3em;
+        margin-bottom: 0.9em;
+        }
+
+    /* CONTACT */
+
+    .contact {
+        margin-top: 3%;
+        padding-top: 5%;
+        padding-bottom: 4%;
+        background-color: rgb(224, 224, 224);
+    }
+
+
+    .contactme {
+        color: #000;
+        font-family: SF Pro Display, 'Onest', sans-serif;
+        font-size: 2.5em;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .correo {
+        font-size: 1em;
+        font-family: SF Pro Display, 'Onest', sans-serif;
+        font-weight: 200;
+        text-align: center;
+        color: #000;
+        padding: 3%;
+    }
+
+    .contact-socialmedia {
+        text-align: center;
+        font-family: SF Pro Display, 'Onest', sans-serif;
+    }
+
+    .contact-socialmedia svg {
+        margin-right: 10px; /* Ajusta el valor según el espacio deseado */
+        width: 20px;
+        height: 20px;
+        font-family: SF Pro Display, 'Onest', sans-serif;
+    }
+
+    .footer {
+        font-family: SF Pro Display, 'Onest', sans-serif;
+        font-size: 0.7em;
+        color: #000;
+        font-weight: 200;
+        text-align: center;
+        padding-top: 2em;
+        padding-bottom: 0em;
+    }
+}
