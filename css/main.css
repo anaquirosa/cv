@@ -749,9 +749,8 @@ p {
 
 
     .portada {
-        background-image: url(../img/ana-iphone.jpg);
+        background-image: url(../img/ana-mobile.png);
         max-width:100%;
-        background-position: 45% center;
     }
 
     /* .imagen-portada {
