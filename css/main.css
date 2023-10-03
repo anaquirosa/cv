@@ -755,13 +755,14 @@ p {
         background-size: cover;
         height: 100vh;
         display: block;
-        justify-content: flex-start;
+        max-width: 100%;
+        object-fit: contain;
     }
 
-    .imagen-portada {
+    /* .imagen-portada {
         height: 10%;
         width: 10%;
-    }
+    } */
     
     .titulo-portada {
         color: #000;
