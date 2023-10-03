@@ -753,7 +753,6 @@ p {
         background-color: #fff;
         background-position: 52% center;
         background-size: cover;
-        background-attachment: fixed;
         height: 100vh;
         display: block;
         justify-content: flex-start;
