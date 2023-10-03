@@ -745,7 +745,7 @@ p {
   }
   
 /* Para pantallas más pequeñas (móviles) */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
 
 
     .portada {
