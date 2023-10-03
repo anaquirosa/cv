@@ -803,7 +803,7 @@ p {
         position: absolute;
         left: 50%;
         bottom: 30px;
-        transform: translateX(-50%);
+        transform: translateX(-50%);git
         z-index: 1;
         color: #fff;
         display: flex;
@@ -815,7 +815,7 @@ p {
     section {
         padding: 10% 10%; 
         text-align: left;
-        margin: -13% 0% -4% 0%;
+        margin: 0% 0% -24% 0%;
     
     }
 
@@ -860,8 +860,8 @@ p {
     }   
 
     .experience {
-        margin-top: 0em;
-        margin-bottom: 2em;
+        margin-top: 5em;
+        margin-bottom: 0em;
     }
 
     .btn {
@@ -907,6 +907,8 @@ p {
 
     .skills {
         background-color: rgb(224, 224, 224);
+        margin-top: 0em;
+        margin-bottom: 0em;
     }
 
     .titulo-skills {
@@ -959,7 +961,7 @@ p {
     /* CONTACT */
 
     .contact {
-        margin-top: 3%;
+        margin-top: 28%;
         padding-top: 5%;
         padding-bottom: 4%;
         background-color: rgb(224, 224, 224);
