@@ -745,11 +745,11 @@ p {
   }
   
 /* Para pantallas más pequeñas (móviles) */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 798px) {
 
 
     .portada {
-        background-image: url(../img/ana-mobile.png);
+        background-image: url(../img/ana-mobile-cover.jpg);
         background-size: cover;
         background-color: #fff;
         background-position: center;
