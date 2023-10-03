@@ -812,6 +812,14 @@ p {
         text-decoration: none;
     }
 
+    section {
+        padding: 10% 10%; 
+        text-align: left;
+        margin: -13% 0% -4% 0%;
+    
+    }
+
+    /* DESCRIPCION */
 
     .texto-titulo{
         color: #000;
@@ -832,6 +840,10 @@ p {
         font-weight: 300;
         line-height: normal;
         margin: 180px 10px 0px -163px;
+    }
+
+    .descripcion {
+        background-color: rgb(224, 224, 224);
     }
 
     /* EXPERIENCE */
