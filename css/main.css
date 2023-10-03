@@ -750,13 +750,7 @@ p {
 
     .portada {
         background-image: url(../img/ana-mobile.png);
-        background-color: #fff;
-        background-position: 52% center;
-        background-size: cover;
-        height: 100vh;
-        display: block;
-        max-width: 100%;
-        object-fit: contain;
+        max-width:100%;
     }
 
     /* .imagen-portada {
