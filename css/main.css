@@ -752,6 +752,7 @@ p {
         background-image: url(../img/foto-ana-mobile.jpg);
         background-color: #fff;
         background-position: 45% center;
+        background-size: cover;
         background-attachment: fixed;
         height: 100vh;
         display: flex;
