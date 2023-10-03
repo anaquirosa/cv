@@ -542,7 +542,7 @@ p {
 /* Para pantallas medianas (ipad) */
 @media (max-width: 1024px) {
     .portada {
-        background-image: url(../img/foto-ana-mobile.jpg);
+        background-image: url(../img/foto-ana.jpg);
         background-color: #fff;
         background-position: center;
         background-attachment: fixed;
