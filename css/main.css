@@ -750,9 +750,9 @@ p {
 
     .portada {
         background-image: url(../img/small-pic.jpg);
-        background-size: cover;
+        background-size: contain;
         background-color: #fff;
-        background-position: center;
+        background-position: initial;
         background-attachment: fixed;
         height: 100vh;
         display: flex;
