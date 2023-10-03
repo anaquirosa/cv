@@ -749,9 +749,9 @@ p {
 
 
     .portada {
-        background-image: url(../img/foto-ana-mobile.jpg);
+        background-image: url(../img/ana-mobile.png);
         background-color: #fff;
-        background-position: 45% center;
+        background-position: 52% center;
         background-size: cover;
         background-attachment: fixed;
         height: 100vh;
