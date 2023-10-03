@@ -749,8 +749,14 @@ p {
 
 
     .portada {
-        background-image: url(../img/ana-mobile.png);
-        max-width:100%;
+        background-image: url(../img/foto-ana.jpg);
+        background-size: cover;
+        background-color: #fff;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh;
+        display: flex;
+        justify-content: flex-start;
     }
 
     /* .imagen-portada {
