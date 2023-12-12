@@ -298,13 +298,13 @@ p {
     z-index: 1; /* Coloca el pseudo-elemento por debajo del contenido de texto */
 }
 
-.loginform{
+.website{
     background-image: url(../img/ana-playa.jpg);
     background-size: cover;
     margin-bottom: 4%;
 }
 
-.loginform::before {
+.website::before {
     content: ""; /* Añade un pseudo-elemento */
     position: absolute; /* Establece posición absoluta para el pseudo-elemento */
     top: 0;
@@ -386,13 +386,13 @@ p {
     z-index: 1; /* Coloca el pseudo-elemento por debajo del contenido de texto */
 }
 
-.simongame {
+.aws-blog {
     background-image: url(../img/aws.png);
     background-size:cover;
     margin-bottom: 4%;
 }
 
-.simongame::before {
+.aws-blog::before {
     content: ""; /* Añade un pseudo-elemento */
     position: absolute; /* Establece posición absoluta para el pseudo-elemento */
     top: 0;
