@@ -803,7 +803,7 @@ p {
         position: absolute;
         left: 50%;
         bottom: 30px;
-        transform: translateX(-50%);git
+        transform: translateX(-50%);
         z-index: 1;
         color: #fff;
         display: flex;
